@@ -1,0 +1,14 @@
+package Group9.Maven_9;
+
+import static org.hamcrest.CoreMatchers.*;
+
+import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+	@Test
+    public void addTwoThree() throws Exception {
+        final int result = new Calculator().add(2, 3);
+        assertThat(result, is(5));
+    }
