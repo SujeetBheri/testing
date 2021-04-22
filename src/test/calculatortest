@@ -30,8 +30,8 @@ public class CalculatorTest {
     }
    @Test
     public void subThreeThree() throws Exception {
-        final int result = new Calculator().multiply(6, 5);
-        assertThat(result, is(30));
+        final int result = new Calculator().multiply(2, 2);
+        assertThat(result, is());
     }
 }
     
