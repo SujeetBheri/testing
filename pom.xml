@@ -4,13 +4,9 @@
   <artifactId>Calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Calculator</name>
-<<<<<<< HEAD
   <description>A simple calculator application</description>
   <dependencies>
-=======
-  <description>A simple calaculator application</description>
- <dependencies>
->>>>>>> master
+
 
   	<dependency>
 
@@ -35,10 +31,5 @@
   	<maven.compiler.target>1.8</maven.compiler.target>
 
   </properties>
-<<<<<<< HEAD
 
-  
 </project>
-=======
-</project>
->>>>>>> master
